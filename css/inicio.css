@@ -1,0 +1,38 @@
+:root{
+    --principal: #880000;
+    --blanco: #ffffff;
+    --footer: #8a8787;
+}
+
+
+
+.container{
+    color: var(--blanco);
+    background-color: var(--principal);
+}
+
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
+
+.btn{
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .5rem;
+    width: 100%;
+    text-align: center;
+}
+footer{
+    padding: 10rem;
+    text-align: center;
+}
+
+.card{
+    margin: auto;
+    padding: 20px;
+}
